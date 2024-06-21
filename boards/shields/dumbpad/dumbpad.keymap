@@ -9,12 +9,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/mouse.h>
-#include <dt-bindings/zmk/rgb.h>
 #include <behaviors/mouse_key_press.dtsi>
 
-#include "../zmk-nodefree-config/helper.h"
-#include "../zmk-nodefree-config/keypos_def/keypos_36keys.h"
-#include "../zmk-nodefree-config/international_chars/german.dtsi"
+#include <zmk-nodefree-config/helper.h>
+#include <zmk-nodefree-config/keypos_def/keypos_36keys.h>
 
 #define TIMEOUT 50
 
@@ -31,10 +29,6 @@
 
 &right_encoder {
     status = "disabled";
-};
-
-&led_strip {
-    chain-length = <8>;
 };
 
 &mt {
