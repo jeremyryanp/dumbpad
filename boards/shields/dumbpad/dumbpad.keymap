@@ -46,7 +46,7 @@
 ZMK_BEHAVIOR(win_sleep, macro,
     wait-ms = <100>;
     tap-ms = <5>;
-    bindings = <&kp LG(X) &kp U &kp S>;
+    bindings = <&kp LG(X) &kp U &kp S>);
 
 
 / {
